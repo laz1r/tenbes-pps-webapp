@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -27,7 +28,7 @@ public class Chat {
 	@Column(name="time_stamp") // how to add timestamp from java to sql ?
 	private Timestamp timestamp;
 	
-	@OneToOne(cascade=CascadeType.ALL) // is one to one correct ?
+	@ManyToOne // is one to one correct ?
 	@JoinColumn(name="user_id") 
 	private User user;
 

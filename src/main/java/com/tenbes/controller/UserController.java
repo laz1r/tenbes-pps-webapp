@@ -32,7 +32,7 @@ public class UserController {
 			produces=MediaType.APPLICATION_JSON_VALUE,
 			method=RequestMethod.POST
 			)
-	public void loginUser(@RequestBody User user) {
+	public void loginUser(@RequestBody User user) { // when login gain access to next page
 		
 	}
 }
