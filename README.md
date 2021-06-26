@@ -2,4 +2,4 @@
 
 Tenbes
 
-Social Media / Pair programming scheduler (backend)
+social media / pair programming scheduler web app (backend)
